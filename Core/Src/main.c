@@ -3,6 +3,8 @@
   ******************************************************************************
   * @file           : main.c
   * @brief          : Main program body
+  * @author         : Mohammadali Abbasi <m.elec76a@gmail.com>
+  * @license        : Apache-2.0
   ******************************************************************************
   * @attention
   *
@@ -14,7 +16,8 @@
   * If no LICENSE file comes with this software, it is provided AS-IS.
   *
   ******************************************************************************
-  */
+ */
+
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"

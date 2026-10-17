@@ -427,6 +427,9 @@ limitations under the License.
 - **Firmware Author:** Mohammadali Abbasi <m.elec76a@gmail.com> — designed and implemented the complete firmware (FreeRTOS architecture, all application tasks, wireless protocol, UI state machine, actuator control)
 - **Hardware Designer:** Mohammadreza Zourmand <mzselec@gmail.com> — custom 2-layer PCB, mains-isolated
 - **HAL driver:** STMicroelectronics
+- **nRF24 Driver:** Ilia Motornyi — [nrf24l01-lib](https://github.com/elmot/nrf24l01-lib) (licensed under The Unlicense)
+
+Special thanks to the open-source community for making this project possible.
 
 ---
 

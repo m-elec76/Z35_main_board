@@ -1,8 +1,12 @@
 /**
  ******************************************************************************
  * @file    app_nrf.c
- * @brief   nRF24L01+ RX profile selector for the main board.
+ * @brief   nRF24L01+ radio layer and receiver task.
  *
+ * @author  Mohammadali Abbasi <m.elec76a@gmail.com>
+ * @date    2026
+ * @license Apache-2.0
+ ******************************************************************************
  * @details Ten pre-shared profiles are available.  Each profile defines:
  *            - a 5-byte pipe address (RX pipe 1)
  *            - an RF channel number

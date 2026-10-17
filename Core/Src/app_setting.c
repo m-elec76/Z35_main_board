@@ -1,7 +1,11 @@
 /**
  ******************************************************************************
  * @file    app_setting.c
- * @brief   LCD rendering and menu state machine (logic identical to main.c).
+ * @brief   User interface menu state machine and LCD rendering.
+ *
+ * @author  Mohammadali Abbasi <m.elec76a@gmail.com>
+ * @date    2026
+ * @license Apache-2.0
  ******************************************************************************
  */
 

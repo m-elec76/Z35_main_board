@@ -1,16 +1,11 @@
 /**
  ******************************************************************************
  * @file    app_config.h
- * @brief   Central place for pin mappings, timing constants and calibration
- *          values used across the whole application.
+ * @brief   Central configuration (pins, constants, timings).
  *
- * @details Moving every literal number out of the code into this header keeps
- *          the main application free of "magic numbers" and satisfies
- *          MISRA-C:2012 Directive 4.5.
- *
- * @author  <YOUR NAME>
- * @date    <YEAR>
- * @version 1.0.0
+ * @author  Mohammadali Abbasi <m.elec76a@gmail.com>
+ * @date    2026
+ * @license Apache-2.0
  ******************************************************************************
  */
 

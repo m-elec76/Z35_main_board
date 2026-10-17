@@ -1,11 +1,11 @@
 /**
  ******************************************************************************
  * @file    app_globals.h
- * @brief   Declarations of every shared runtime variable.
+ * @brief   Declaration and definition of shared runtime variables.
  *
- * @note    All variables are defined exactly once in app_globals.c.
- *          This header only contains extern declarations, satisfying
- *          MISRA-C:2012 Rule 8.4.
+ * @author  Mohammadali Abbasi <m.elec76a@gmail.com>
+ * @date    2026
+ * @license Apache-2.0
  ******************************************************************************
  */
 

@@ -1,7 +1,12 @@
-/**
+ /**
  ******************************************************************************
  * @file    app_lighting.c
- * @brief   Artificial sunrise / sunset state machine.
+ * @brief   Artificial sunrise / sunset gradient controller.
+ *
+ * @author  Mohammadali Abbasi <m.elec76a@gmail.com>
+ * @date    2026
+ * @license Apache-2.0
+ *
  *
  * @details The task sweeps the ARR register of TIM2 between SUN_ARR_MIN and
  *          SUN_ARR_MAX to emulate smooth natural-light ramps.  The FSM state

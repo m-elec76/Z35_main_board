@@ -1,7 +1,11 @@
 /**
  ******************************************************************************
  * @file    app_types.h
- * @brief   Application-wide type definitions: payload, menu states.
+ * @brief   Global data structures and enums.
+ *
+ * @author  Mohammadali Abbasi <m.elec76a@gmail.com>
+ * @date    2026
+ * @license Apache-2.0
  ******************************************************************************
  */
 

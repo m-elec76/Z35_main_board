@@ -1,10 +1,13 @@
 /**
  ******************************************************************************
  * @file    app_utils.h
- * @brief   Small stateless helper functions shared between tasks.
+ * @brief   Helper functions (day/night calculation, IRQ handling).
+ *
+ * @author  Mohammadali Abbasi <m.elec76a@gmail.com>
+ * @date    2026
+ * @license Apache-2.0
  ******************************************************************************
  */
-
 #ifndef APP_UTILS_H
 #define APP_UTILS_H
 

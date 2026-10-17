@@ -1,7 +1,11 @@
 /**
  ******************************************************************************
  * @file    app_output.h
- * @brief   Actuator control task: heaters, humidity, fan, timers.
+ * @brief   Actuator control task (heaters, timers, etc).
+ *
+ * @author  Mohammadali Abbasi <m.elec76a@gmail.com>
+ * @date    2026
+ * @license Apache-2.0
  ******************************************************************************
  */
 

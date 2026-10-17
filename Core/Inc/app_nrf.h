@@ -1,7 +1,11 @@
 /**
  ******************************************************************************
  * @file    app_nrf.h
- * @brief   nRF24L01+ radio layer.
+ * @brief   nRF24L01+ radio layer and receiver task.
+ *
+ * @author  Mohammadali Abbasi <m.elec76a@gmail.com>
+ * @date    2026
+ * @license Apache-2.0
  ******************************************************************************
  */
 

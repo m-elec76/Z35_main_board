@@ -1,9 +1,11 @@
 /**
  ******************************************************************************
  * @file    app_globals.c
- * @brief   Single definition of every shared runtime variable.
- * @note    Values are copied verbatim from the original main.c to guarantee
- *          identical runtime behaviour.
+ * @brief   Declaration and definition of shared runtime variables.
+ *
+ * @author  Mohammadali Abbasi <m.elec76a@gmail.com>
+ * @date    2026
+ * @license Apache-2.0
  ******************************************************************************
  */
 
