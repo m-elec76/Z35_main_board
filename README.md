@@ -55,6 +55,19 @@ analog front-end, dramatically improving measurement accuracy.
 
 ---
 
+## 🔗 Related Repositories
+
+The Z35 platform is split into four independent repositories:
+
+| Repository | Type | Description |
+|------------|------|-------------|
+| [**z35-main-board**](https://github.com/m-elec76/Z35_main_board) *(this repo)* | Firmware | STM32G431RBT6 — receives sensor data, drives actuators, hosts the UI |
+| [**z35-sensor-board**](https://github.com/m-elec76/Z35_sensor_board) | Firmware | STM32G030C8T6 — acquires SHT40 / MQ-135 / LDR / PIR data and transmits wirelessly |
+| [**z35-main-hardware**](https://github.com/mzurmand/Z35_main_board) | Hardware | Main board PCB, schematic, BOM |
+| [**z35-sensor-hardware**](https://github.com/mzurmand/Z35_sensor_board) | Hardware | Sensor board PCB, schematic, BOM |
+
+---
+
 ## ✨ Key Features
 
 | Feature                          | Details                                                        |
@@ -366,6 +379,7 @@ The gap between ON and OFF thresholds prevents relay chatter.
 | 9 | **Watchdog timer (IWDG)**                | Automatic recovery from lock-ups                                               |
 | 10 | **Spring simulator**                    | User defines a time window: daily ±N minutes of daylight + temperature offset  |
 | 11 | **Multi-sensor averaging**              | Support 2+ sensor nodes; average or per-node display                           |
+| 12 | **Hidden Calibration Menu**             | Add a secret settings menu to allow manual calibration of SHT40, MQ-135, and LDR sensors. |
 
 ---
 
