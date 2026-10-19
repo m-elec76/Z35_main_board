@@ -86,16 +86,7 @@ The Z35 platform is split into four independent repositories:
 
 ## 📸 Gallery
 
-| Main & Sensor (Top) | Main & Sensor (Bottom) |
-| :---: | :---: |
-| ![Top](docs/images/board-top.jpg) | ![Bottom](docs/images/board-bottom.jpg) |
-
-| Main Board | Sensor Board |
-| :---: | :---: |
-| ![Main Board](docs/images/main-board.jpg) | ![Sensor Board](docs/images/sensor-board.jpg) |
-
-### 🎥 Video Demo
-[![Z35 Demo Video](docs/images/board-top.jpg)](docs/videos/z35-demo.mp4)
+For high-resolution photos of the hardware, and a video demonstration of the system in action, please browse the [`docs`](docs/) folder.
 
 ---
 
