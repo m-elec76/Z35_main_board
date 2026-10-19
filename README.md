@@ -84,6 +84,21 @@ The Z35 platform is split into four independent repositories:
 
 ---
 
+## 📸 Gallery
+
+| Main & Sensor (Top) | Main & Sensor (Bottom) |
+| :---: | :---: |
+| ![Top](docs/images/board-top.jpg) | ![Bottom](docs/images/board-bottom.jpg) |
+
+| Main Board | Sensor Board |
+| :---: | :---: |
+| ![Main Board](docs/images/main-board.jpg) | ![Sensor Board](docs/images/sensor-board.jpg) |
+
+### 🎥 Video Demo
+[![Z35 Demo Video](docs/images/board-top.jpg)](docs/videos/z35-demo.mp4)
+
+---
+
 ## 🏗 System Architecture
 
 ```mermaid
@@ -379,7 +394,23 @@ The gap between ON and OFF thresholds prevents relay chatter.
 | 9 | **Watchdog timer (IWDG)**                | Automatic recovery from lock-ups                                               |
 | 10 | **Spring simulator**                    | User defines a time window: daily ±N minutes of daylight + temperature offset  |
 | 11 | **Multi-sensor averaging**              | Support 2+ sensor nodes; average or per-node display                           |
-| 12 | **Hidden Calibration Menu**             | Add a secret settings menu to allow manual calibration of SHT40, MQ-135, and LDR sensors. |
+| 12 | **Hidden Calibration Menu**             | Add a secret settings menu to allow manual calibration of SHT40, MQ-135, and LDR sensors.     <br> **Note:** The MQ-135 PPM formula is currently approximated and requires a hardware voltage divider modification before accurate calibration. |
+
+---
+
+## 🤝 Contributing & Collaboration
+
+We believe in the power of open-source and continuous improvement. This project is an ongoing journey. Whether you are an experienced embedded engineer or a passionate hobbyist, **you are highly welcome to contribute.**
+
+### 🛠️ How you can help:
+- **Firmware Development:** Help implement the features in the Roadmap (e.g., OTA updates, SD-Card logging, or GSM integration).
+- **Hardware Design:** Contribute to PCB and Schematic revisions.
+- **Bug Reports & Suggestions:** Found a bug or have an idea? Feel free to open an **Issue**.
+- **Code Review:** If you spot an inefficiency, feel free to open a **Pull Request**.
+
+*Let's build a robust, reliable, and fully open environmental controller together!*
+
+> 📖 **For detailed guidelines on coding standards, architecture rules, and how to submit a Pull Request, please read our [CONTRIBUTING.md](CONTRIBUTING.md).**
 
 ---
 
