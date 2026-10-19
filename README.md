@@ -86,7 +86,7 @@ The Z35 platform is split into four independent repositories:
 
 ## 📸 Gallery
 
-For high-resolution photos of the hardware, and a video demonstration of the system in action, please browse the [`docs`](docs/) folder.
+For high-resolution photos of the hardware, and a video demonstration of the system in action, please browse the [`docs`](Docs) folder.
 
 ---
 
