@@ -62,7 +62,7 @@ The Z35 platform is split into four independent repositories:
 |------------|------|-------------|
 | [**z35-main-board**](https://github.com/m-elec76/Z35_main_board) *(this repo)* | Firmware | STM32G431RBT6 — receives sensor data, drives actuators, hosts the UI |
 | [**z35-sensor-board**](https://github.com/m-elec76/Z35_sensor_board) | Firmware | STM32G030C8T6 — acquires SHT40 / MQ-135 / LDR / PIR data and transmits wirelessly |
-| [**z35-hardware**](https://github.com/mzurmand/Z35_Hardware) | Hardware | Main board PCB, schematic, BOM |
+| [**z35-hardware**](https://github.com/mzurmand/Z35_Hardware) | Hardware | Board PCB, schematic, BOM |
 
 ---
 
