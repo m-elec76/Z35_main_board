@@ -4,8 +4,7 @@
 [![RTOS](https://img.shields.io/badge/RTOS-FreeRTOS-green)](https://www.freertos.org/)
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue)](LICENSE)
 [![Sensor Firmware](https://img.shields.io/badge/Sensor%20Firmware-STM32G030-blueviolet)](https://github.com/m-elec76/Z35_sensor_board.git)
-[![Main Hardware](https://img.shields.io/badge/Main%20Hardware-PCB-yellow)](https://github.com/mzurmand/Z35_main_board.git)
-[![Sensor Hardware](https://img.shields.io/badge/Sensor%20Hardware-PCB-orange)](https://github.com/mzurmand/Z35_sensor_board.git)
+[![Z35 Hardware](https://img.shields.io/badge/Z35%20Hardware-Altium-yellow)](https://github.com/mzurmand/Z35_Hardware)
 
 The **Main Board** of the Z35 platform — receives wireless sensor data
 from a remote node, drives every environmental actuator, and hosts the
@@ -63,8 +62,7 @@ The Z35 platform is split into four independent repositories:
 |------------|------|-------------|
 | [**z35-main-board**](https://github.com/m-elec76/Z35_main_board) *(this repo)* | Firmware | STM32G431RBT6 — receives sensor data, drives actuators, hosts the UI |
 | [**z35-sensor-board**](https://github.com/m-elec76/Z35_sensor_board) | Firmware | STM32G030C8T6 — acquires SHT40 / MQ-135 / LDR / PIR data and transmits wirelessly |
-| [**z35-main-hardware**](https://github.com/mzurmand/Z35_main_board) | Hardware | Main board PCB, schematic, BOM |
-| [**z35-sensor-hardware**](https://github.com/mzurmand/Z35_sensor_board) | Hardware | Sensor board PCB, schematic, BOM |
+| [**z35-hardware**](https://github.com/mzurmand/Z35_Hardware) | Hardware | Main board PCB, schematic, BOM |
 
 ---
 
@@ -470,7 +468,9 @@ limitations under the License.
 ## 🙏 Credits
 
 - **Firmware Author:** Mohammadali Abbasi <m.elec76a@gmail.com> — designed and implemented the complete firmware (FreeRTOS architecture, all application tasks, wireless protocol, UI state machine, actuator control)
+    🔗 [LinkedIn Profile](https://www.linkedin.com/in/mohammadali-abbasi/)
 - **Hardware Designer:** Mohammadreza Zourmand <mzselec@gmail.com> — custom 2-layer PCB, mains-isolated
+      🔗 [LinkedIn Profile](https://www.linkedin.com/in/mzourmand/)
 - **HAL driver:** STMicroelectronics
 - **nRF24 Driver:** Ilia Motornyi — [nrf24l01-lib](https://github.com/elmot/nrf24l01-lib) (licensed under The Unlicense)
 
